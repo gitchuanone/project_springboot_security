@@ -1,0 +1,20 @@
+server:
+  port: 9200
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: jwtDemo
+
+
+#####################
+### 自定义属性
+define:
+  jwt:
+    # jwt加密时的秘钥。
+    secretKey: "secretKey"
+    # token过期时间，分钟。
+    tokenExpireSecond: 1
+
+
